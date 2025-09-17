@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulário com Eventos DOM</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <h1>Cadastro de Usuário</h1>
+
+  <form id="formulario">
+    <input type="text" id="usuario" placeholder="Nome de usuário" required>
+    <input type="password" id="senha" placeholder="Senha" required>
+    <input type="tel" id="telefone" placeholder="Telefone" required>
+    <input type="date" id="nascimento" required>
+    <input type="email" id="email" placeholder="E-mail" required>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <button id="limpar">Limpar Lista</button>
+
+  <h2>Lista de Usuários</h2>
+  <ul id="listaUsuarios"></ul>
+
+<script src="./script.js"></script>
+</body>
+</html>
